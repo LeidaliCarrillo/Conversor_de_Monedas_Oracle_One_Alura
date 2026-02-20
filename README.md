@@ -14,5 +14,5 @@ La app funciona con un listado de monedas para facilitar la interacción y ampli
 
 <img width="376" height="265" alt="image" src="https://github.com/user-attachments/assets/d849a118-54fe-45ae-b404-123db81ed851" />
 
-- Posterior a eso te pedirá que selecciones una opción, el monto a conevertir y arrojará el resultado.
+- Posterior a eso te pedirá que selecciones una opción, muestra la tasa de cambio en tiempo real, pedirá el monto a conevertir y arrojará el resultado.
 <img width="402" height="108" alt="image" src="https://github.com/user-attachments/assets/8fdf1c82-9998-483f-a42e-709d82800e09" />
