@@ -12,14 +12,14 @@ import com.google.gson.JsonParser;
 
 public class ExchangeService {
     
-    private static final String API_KEY = "API KEY"; // ← Pega tu API Key aquí
+    private static final String API_KEY = "API_KEY"; // ← Pega tu API Key aquí
     private static final String BASE = "USD"; // Usamos USD como base
     private static Map<String, Double> tasas = new HashMap<>();
 
     // Inicializar las tasas al iniciar la aplicación
     public static void inicializarTasas() {
         try {
-            String urlStr = "https://v6.exchangerate-api.com/v6/" + "72c3a0cdb7394da2916e0a89" + "/latest/" + BASE;
+            String urlStr = "https://v6.exchangerate-api.com/v6/" + "API_KEY" + "/latest/" + BASE;
             URL url = new URL(urlStr);
 
             HttpURLConnection request = (HttpURLConnection) url.openConnection();
