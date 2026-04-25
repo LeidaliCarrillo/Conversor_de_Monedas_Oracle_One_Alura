@@ -11,8 +11,8 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 public class ExchangeService {
-
-    private static final String API_KEY = "72c3a0cdb7394da2916e0a89"; // ← Pega tu API Key aquí
+    
+    private static final String API_KEY = "API KEY"; // ← Pega tu API Key aquí
     private static final String BASE = "USD"; // Usamos USD como base
     private static Map<String, Double> tasas = new HashMap<>();
 
